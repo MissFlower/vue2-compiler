@@ -1,0 +1,29 @@
+{
+  "name": "vue2-compiler",
+  "version": "1.0.0",
+  "description": "vue2-compiler",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -w -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MissFlower/vue2-compiler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MissFlower/vue2-compiler/issues"
+  },
+  "homepage": "https://github.com/MissFlower/vue2-compiler#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "rollup": "^2.33.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
